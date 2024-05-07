@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.keduit.mapper.TodayMapper">
+
+
+<select id="allRead" resultType="com.keduit.domain.TodayVO">
+
+	select * from t_todo
+
+
+</select>
+<select id="oneRead" resultType="com.keduit.domain.TodayVO">
+select * from t_todo where tno= #{tno}
+
+
+</select>
+<update id="update">
+
+ update t_todo set title = #{title}, finished = #{finished} where tno = #{tno}
+
+
+</update>
+<delete id="delete">
+delete from t_todo where tno = #{tno}
+</delete>
+
+
+
+<insert id="insert">
+
+  	insert into t_todo(tno,title,dueDate,writer,finished)
+	values (seq_reply.nextval,#{title} ,sysdate,#{writer},#{finished})
+
+
+
+</insert>
+
+
+</mapper>
