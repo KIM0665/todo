@@ -8,7 +8,7 @@
 
 <div class="row">
 	<div class="col-lg-12">
-		<h1 class="page-header">게시글 목록</h1>
+		<h1 class="page-header">TODO 목록</h1>
 	</div>
 	<!-- /.col-lg-12 -->
 </div>
@@ -19,7 +19,7 @@
 			<div class="panel-heading">
 				Board List Page
 				<button id="regBtn" type="button"
-					class="btn-primary pull-right btn-xs btn">게시글 등록</button>
+					class="btn-primary pull-right btn-xs btn">할 일 등록</button>
 			</div>
 			<!-- <div class="text-right">
                           <a href="/board/register">게시글등록</a>
@@ -31,9 +31,9 @@
 					<thead>
 						<tr>
 							<th>#번호</th>
-							<th>제목</th>
+							<th>해야하는 일</th>
 							<th>작성자</th>
-							<th>작성일</th>
+							<th>등록일</th>
 						</tr>
 					</thead>
 

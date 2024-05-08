@@ -5,7 +5,7 @@
 <%@include file="../includes/header.jsp"%>
 <div class="row">
 	<div class="col-lg-12">
-		<h1 class="page-header">게시글 수정</h1>
+		<h1 class="page-header">Today Modify</h1>
 	</div>
 	<!-- /.col-lg-12 -->
 </div>
@@ -13,7 +13,7 @@
 <div class="row">
 	<div class="col-lg-8">
 		<div class="panel panel-default">
-			<div class="panel-heading">Today Register</div>
+			<div class="panel-heading">Today Modify</div>
 			<div class="panel-body">
 				<div class="row">
 					<div class="col-lg-12">

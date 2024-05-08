@@ -5,7 +5,7 @@
 <%@include file="../includes/header.jsp"%>
 <div class="row">
 	<div class="col-lg-12">
-		<h1 class="page-header">게시글 상세조회</h1>
+		<h1 class="page-header">Today Detail</h1>
 	</div>
 	<!-- /.col-lg-12 -->
 </div>
@@ -13,7 +13,7 @@
 <div class="row">
 	<div class="col-lg-8">
 		<div class="panel panel-default">
-			<div class="panel-heading">Board Register</div>
+			<div class="panel-heading">Today Detail</div>
 			<div class="panel-body">
 				<div class="row">
 					<div class="col-lg-12">
@@ -26,7 +26,7 @@
 						</div>
 
 						<div class="form-group">
-							<label>제목</label> <input class="form-control" name="title"
+							<label>해야되는 일</label> <input class="form-control" name="title"
 								value="${today.title}" readonly>
 						</div>
 						<div class="form-group">
